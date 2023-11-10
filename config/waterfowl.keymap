@@ -23,7 +23,7 @@
  * |   Z  |   X  |   C  |   V  |   B  |  |  2  |    |  3  |  |   N  |   M  |   ,  |   .  |   /  |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
- *          |  1  |   | DEL | SPACE | TAB  |            |  ESC  | BS | ENTER |   |  4  |
+ *          |  1  |   | LGUI | SPACE | TAB |           |  ESC  | ENTER | BS  |   |  4  |
  *          `-----'   `--------------------'            `--------------------'   `-----'
  */
             bindings = <
@@ -34,10 +34,10 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp PAGE_DOWN PAGE_UP
-                &inc_dec_kp C_VOL_DN C_VOL_UP
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
+                &inc_dec_kp PAGE_DOWN PAGE_UP
+                &inc_dec_kp C_VOL_DN C_VOL_UP
             >;
         };
 
@@ -52,7 +52,7 @@
  * |      |      |  INS |      |      |  |  2  |    |  3  |  |   0  |   1  |   2  |   3  |   *  |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
- *          |  1  |   | DEL | SPACE | MO(3)|            |  ESC  | BS | ENTER |   |  4  |
+ *          |  1  |   | LGUI | SPACE | TAB |           |  ESC  | ENTER | BS  |   |  4  |
  *          `-----'   `--------------------'            `--------------------'   `-----'
  */
             bindings = <
@@ -63,10 +63,10 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp PAGE_DOWN PAGE_UP
-                &inc_dec_kp C_VOL_DN C_VOL_UP
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
+                &inc_dec_kp PAGE_DOWN PAGE_UP
+                &inc_dec_kp C_VOL_DN C_VOL_UP
             >;
         };
 
@@ -81,7 +81,7 @@
  * |   $  |      |   {  |   }  |   &  |  |  2  |    |  3  |  |      |      |      |      |      |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
- *          |  1  |   | DEL | SPACE | TAB  |            |  ESC  | BS | ENTER |   |  4  |
+ *          |  1  |   | LGUI | SPACE | TAB |           |  ESC  | ENTER | BS  |   |  4  |
  *          `-----'   `--------------------'            `--------------------'   `-----'
  */
             bindings = <
@@ -92,10 +92,10 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp PAGE_DOWN PAGE_UP
-                &inc_dec_kp C_VOL_DN C_VOL_UP
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
+                &inc_dec_kp PAGE_DOWN PAGE_UP
+                &inc_dec_kp C_VOL_DN C_VOL_UP
             >;
         };
 
@@ -110,7 +110,7 @@
  * |      |      |      |      |      |  |  2  |    |  3  |  |  F10 |  F1  |  F2  |  F3  |  F13 |
  * `----------------------------------'  `-----'    `-----'  `----------------------------------'
  *          ,-----.   ,--------------------.            ,--------------------.   ,-----.
- *          |  1  |   | DEL | SPACE | TAB  |            |  ESC  | BS | ENTER |   |  4  |
+ *          |  1  |   | LGUI | SPACE | TAB |           |  ESC  | ENTER | BS  |   |  4  |
  *          `-----'   `--------------------'            `--------------------'   `-----'
  */
             bindings = <
@@ -121,10 +121,10 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp PAGE_DOWN PAGE_UP
-                &inc_dec_kp C_VOL_DN C_VOL_UP
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
+                &inc_dec_kp PAGE_DOWN PAGE_UP
+                &inc_dec_kp C_VOL_DN C_VOL_UP
             >;
         };
 
