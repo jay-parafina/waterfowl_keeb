@@ -35,7 +35,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp LS(LS(LG)) LG(GRAVE)
+                &inc_dec_kp LS(LG(GRAVE)) LG(GRAVE)
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
                 &inc_dec_kp LS(TAB) TAB
@@ -65,7 +65,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp LS(LS(LG)) LG(GRAVE)
+                &inc_dec_kp LS(LG(GRAVE)) LG(GRAVE)
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
                 &inc_dec_kp LS(TAB) TAB
@@ -95,7 +95,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp LS(LS(LG)) LG(GRAVE)
+                &inc_dec_kp LS(LG(GRAVE)) LG(GRAVE)
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
                 &inc_dec_kp LS(TAB) TAB
@@ -125,7 +125,7 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp LS(LS(LG)) LG(GRAVE)
+                &inc_dec_kp LS(LG(GRAVE)) LG(GRAVE)
                 &inc_dec_kp DOWN UP
                 &inc_dec_kp LEFT RIGHT
                 &inc_dec_kp LS(TAB) TAB
